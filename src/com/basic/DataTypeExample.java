@@ -2,9 +2,14 @@ package com.basic;
 
 public class DataTypeExample {
 	public static void main(String s[])
+	{  int a=10;
+	if(a%2==0)
 	{
-		String a="Hai guys";
-		String b=" This is eclipse";
-		System.out.println(a+b);
+		System.out.println(a+" is even" );
+	}
+	else
+	{
+		System.out.println(a+" is odd");
+	}
 	}
 }
